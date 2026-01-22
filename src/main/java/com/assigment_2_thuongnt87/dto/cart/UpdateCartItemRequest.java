@@ -1,0 +1,7 @@
+package com.assigment_2_thuongnt87.dto.cart;
+
+import jakarta.validation.constraints.Min;
+
+public record UpdateCartItemRequest(
+    @Min(1) int quantity
+) {}
